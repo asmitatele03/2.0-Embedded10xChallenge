@@ -13,7 +13,7 @@ int main()
             lcd_cmd(0x80 + i); //first row of lcd
             lcd_string("good afternoon"); 
             delay_ms(200);
-            lcd_cmd(0x01);
+            lcd_cmd(0x01); //clear the lcd
         }
     }
 }
