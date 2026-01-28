@@ -28,7 +28,6 @@ while(1)
 
 4. For Loop for LCD Scrolling
 
-```c
 for(i = 0; i < 16; i++)
 {
     lcd_cmd(0x80 + i);
