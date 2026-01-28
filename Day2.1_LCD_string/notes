@@ -74,22 +74,5 @@ This logic is useful for:
 * Notice displays
 * Embedded dashboards
 
-7. Possible Improvements
 
-If you want smooth scrolling, instead of clearing the LCD each time, you can use the command:
-
-➡ Display Shift Right → `0x1C`
-➡ Display Shift Left → `0x18`
-
----
-
-If you want, I can also prepare:
-
-✅ GitHub-ready README notes
-✅ Block diagram
-✅ Flowchart
-✅ Improved scrolling code
-✅ Explanation for viva/practical exam
-
-Just tell me!
 
