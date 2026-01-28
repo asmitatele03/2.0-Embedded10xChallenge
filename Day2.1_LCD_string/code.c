@@ -8,10 +8,10 @@ int main()
 
     while(1)
     {
-        for(i = 0; i < 16; i++)  //first row of lcd
+        for(i = 0; i < 16; i++) 
         {
-            lcd_cmd(0x80 + i);
-            lcd_string("good afternoon");
+            lcd_cmd(0x80 + i); //first row of lcd
+            lcd_string("good afternoon"); 
             delay_ms(200);
             lcd_cmd(0x01);
         }
