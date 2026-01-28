@@ -8,7 +8,7 @@ int main()
 
     while(1)
     {
-        for(i = 0; i < 16; i++)
+        for(i = 0; i < 16; i++)  //first row of lcd
         {
             lcd_cmd(0x80 + i);
             lcd_string("good afternoon");
