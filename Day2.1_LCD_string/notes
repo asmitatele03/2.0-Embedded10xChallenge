@@ -12,30 +12,21 @@ int main()
 {
     int i;
     lcd_init();
-```
 
 * The variable **`i`** is used for the loop.
-* **`lcd_init()`** initializes the 16×2 LCD in 4-bit/8-bit mode (as defined in your driver).
+* `lcd_init()` initializes the 16×2 LCD in 4-bit/8-bit mode (as defined in your driver).
   It sets:
   ✔ LCD function set
   ✔ Display on/off
   ✔ Cursor and entry mode
   ✔ Clear display
 
----
-
-## **3. Infinite Loop**
-
-```c
+3. Infinite Loop
 while(1)
 {
-```
-
 * Embedded programs usually run forever, so infinite loop (`while(1)`) is used.
 
----
-
-## **4. For Loop for LCD Scrolling**
+4. For Loop for LCD Scrolling
 
 ```c
 for(i = 0; i < 16; i++)
