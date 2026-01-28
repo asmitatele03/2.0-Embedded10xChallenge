@@ -1,25 +1,13 @@
-Here are clear, well-structured **notes + explanation** for the extracted code.
-You can use these directly in your GitHub README or class notebook.
+1. Header Files
 
----
-
-# **📘 Notes and Explanation for the LCD Scrolling Code**
-
-## **1. Header Files**
-
-```c
 #include <lpc21xx.h>
 #include "header.h"
-```
 
-* **`lpc21xx.h`**: Contains register definitions for the LPC2129/2148 microcontroller.
-* **`header.h`**: User-defined header file that includes function prototypes for `lcd_init()`, `lcd_cmd()`, `lcd_string()`, `delay_ms()` etc.
+* lpc21xx.h: Contains register definitions for the LPC2129 microcontroller.
+* `header.h`: User-defined header file that includes function prototypes for `lcd_init()`, `lcd_cmd()`, `lcd_string()`, `delay_ms()` etc.
 
----
+2. Main Function
 
-## **2. Main Function**
-
-```c
 int main()
 {
     int i;
