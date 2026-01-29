@@ -1,6 +1,6 @@
 #include <lpc21xx.h>
 #include "header.h"
-#define S "vector"   // micro  
+#define S "vector"   // macro 
 
 int main() 
 {
