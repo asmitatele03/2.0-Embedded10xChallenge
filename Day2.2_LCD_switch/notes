@@ -6,38 +6,27 @@ The code takes a predefined string (`"vector"`) and shifts it across the LCD scr
 🧠 Explanation of the Code
 
 1. Header Files
-
-```c
 #include <lpc21xx.h>
 #include "header.h"
-```
 
 * `lpc21xx.h` → Contains register definitions for the LPC2129/LPC2148 ARM7 microcontroller.
 * `header.h` → Your custom header file with LCD function prototypes (`lcd_init`, `lcd_cmd`, `lcd_string`, etc.).
 
----
+2. Macro Definition
 
-### **2. Macro Definition**
-
-```c
 #define S "vector"
-```
 
 * Defines the string to be scrolled on the LCD.
 * You can replace `"vector"` with any word you want to scroll.
 
----
+3. Main Function**
 
-### **3. Main Function**
-
-```c
 int main()
 {
     int i, j, k;
 
     lcd_init();         // Initializes LCD in 4-bit/8-bit mode
     lcd_cmd(0x01);      // Clears the display
-```
 
 * Variables:
 
@@ -45,11 +34,8 @@ int main()
   * `j` → stores string length
   * `k` → stores the shifting index
 
----
+4. Main Loop
 
-### **4. Main Loop**
-
-```c
 while(1)
 {
     j = strlen(S);  // Find length of the string
