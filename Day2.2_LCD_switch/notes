@@ -44,11 +44,8 @@ while(1)
 
 * `strlen()` determines how many characters are in `"vector"`.
 
----
+5. Scrolling Logic
 
-### **5. Scrolling Logic**
-
-```c
 for(i = 0; i < 16; i++)
 {
     lcd_cmd(0x80 + i);   // Move cursor to the next LCD column
@@ -63,16 +60,14 @@ for(i = 0; i < 16; i++)
 
     lcd_string(S + k);    // Print string starting from index 'k'
 }
-```
-
-### 🔍 **How the Scrolling Works**
+🔍 How the Scrolling Works
 
 * `0x80 + i` → Moves the cursor across the 1st row of the LCD.
 * `lcd_string(S)` → Prints `"vector"` normally.
 * `lcd_cmd(0x01)` → Clears the screen to show the next shifted version.
 * `lcd_string(S + k)` → Prints the string starting from index `k`.
 
-#### Example:
+Example:
 
 If `S = "vector"`
 
@@ -86,13 +81,11 @@ If `S = "vector"`
 | 5 | r                   |
 | 6 | (loops back) vector |
 
-This creates a **dynamic scrolling animation** on the LCD.
+This creates a dynamic scrolling animation on the LCD.
 
----
+📝 Features
 
-## 📝 **Features**
-
-* Works with **LPC21xx ARM7** microcontrollers
+* Works with LPC21xx ARM7 microcontrollers
 * LCD driver fully in C
 * Demonstrates:
 
@@ -101,9 +94,7 @@ This creates a **dynamic scrolling animation** on the LCD.
   * LCD command control
   * Dynamic scrolling effect
 
----
-
-## 🧪 **Hardware Requirements**
+🧪 Hardware Requirements
 
 * LPC2129 / LPC2148 ARM7 board
 * 16×2 LCD (HD44780-based)
@@ -111,13 +102,4 @@ This creates a **dynamic scrolling animation** on the LCD.
 * Jumper wires
 * Power supply
 
----
-
-If you want, I can also create:
-📌 A **GitHub-ready README.md file**
-📌 A **repository name + emoji**
-📌 A **diagram for LCD connections**
-📌 A **YouTube-style description**
-
-Just tell me!
 
