@@ -11,7 +11,7 @@ int main()
 
     while(1)
     {
-        j = strlen(S);
+        j = strlen(S);      // string length function
         k = 1;
 
         for(i = 0; i < 16; i++)
