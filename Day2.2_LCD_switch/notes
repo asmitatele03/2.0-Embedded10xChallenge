@@ -40,7 +40,6 @@ while(1)
 {
     j = strlen(S);  // Find length of the string
     k = 1;          // Start shifting from index 1
-```
 
 * `strlen()` determines how many characters are in `"vector"`.
 
