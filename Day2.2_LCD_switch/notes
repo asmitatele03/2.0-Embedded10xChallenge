@@ -93,7 +93,7 @@ This creates a dynamic scrolling animation on the LCD.
   * LCD command control
   * Dynamic scrolling effect
 
-🧪 Hardware Requirements
+🧪 Hardware Requirements  
 
 * LPC2129 / LPC2148 ARM7 board
 * 16×2 LCD (HD44780-based)
