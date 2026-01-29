@@ -4,7 +4,7 @@
 
 int main() 
 {
-    int i, j, k;
+    int i, j, k;  // variable dectaration
 
     lcd_init();
     lcd_cmd(0x01);     // Clear display
