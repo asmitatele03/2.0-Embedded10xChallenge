@@ -1,18 +1,11 @@
-Here is a **clean, professional explanation** you can directly paste into your **GitHub README** for this code.
-I’ve written it in a simple, technical, and beginner-friendly way so recruiters and engineers can understand your work clearly.
+📟 LCD Scrolling Text Program – Embedded C (ARM LPC21xx)
 
----
-
-# 📟 LCD Scrolling Text Program – Embedded C (ARM LPC21xx)
-
-This program demonstrates **scrolling text animation** on a **16×2 LCD** using **Embedded C** on the **LPC21xx ARM7 microcontroller**.
+This program demonstrates scrolling text animation on a 16×2 LCD using Embedded C on the LPC21xx ARM7 microcontroller.
 The code takes a predefined string (`"vector"`) and shifts it across the LCD screen by repeatedly moving the cursor and re-printing the string.
 
----
+🧠 Explanation of the Code
 
-## 🧠 **Explanation of the Code**
-
-### **1. Header Files**
+1. Header Files
 
 ```c
 #include <lpc21xx.h>
