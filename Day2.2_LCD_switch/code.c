@@ -1,8 +1,8 @@
 #include <lpc21xx.h>
 #include "header.h"
-#define S "vector"  //micro
+#define S "vector"   // micro  
 
-int main()
+int main() 
 {
     int i, j, k;
 
