@@ -14,7 +14,7 @@ int main()
         j = strlen(S);      // string length function
         k = 1;
 
-        for(i = 0; i < 16; i++)
+        for(i = 0; i < 16; i++)   // for loop for first row
         {
             lcd_cmd(0x80 + i);   // Move cursor
             lcd_string(S);       // Print string
