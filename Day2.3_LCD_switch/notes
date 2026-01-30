@@ -45,6 +45,7 @@ Debouncing is done with while(sw==0);
 Component	LPC2148 Pin
 Switch	P0.14
 LCD D0-D7, RS, RW, EN	As per your lcd_driver.c configuration
+
 📂 Included Files
 
 main.c – Main program
