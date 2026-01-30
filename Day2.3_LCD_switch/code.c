@@ -9,7 +9,7 @@ int main()
 
     while(1)
     {
-        lcd_cmd(0x80);
+        lcd_cmd(0x80);    // first row of lcd first address location
         lcd_data((c/10)+48);
         lcd_data((c%10)+48);
         delay_ms(200);
