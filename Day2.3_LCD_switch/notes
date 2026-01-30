@@ -1,11 +1,11 @@
 Switch-Based Counter on 16×2 LCD | ARM LPC2129
 
-This project demonstrates how to interface a 16×2 LCD with the ARM7 LPC2148 microcontroller and display a two-digit 
+This project demonstrates how to interface a 16×2 LCD with the ARM7 rhydolabz microcontroller and display a two-digit 
 counter, which increments each time a switch is pressed.
 
 🔧 Key Concepts Covered
 
-GPIO configuration on LPC2148
+GPIO configuration on rhydolabz
 
 LCD interfacing in 8-bit/4-bit mode (as per your driver file)
 
