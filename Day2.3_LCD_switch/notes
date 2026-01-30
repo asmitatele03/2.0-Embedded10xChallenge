@@ -1,1 +1,68 @@
+Switch-Based Counter on 16×2 LCD | ARM LPC2129
+
+This project demonstrates how to interface a 16×2 LCD with the ARM7 LPC2148 microcontroller and display a two-digit 
+counter, which increments each time a switch is pressed.
+
+🔧 Key Concepts Covered
+
+GPIO configuration on LPC2148
+
+LCD interfacing in 8-bit/4-bit mode (as per your driver file)
+
+Debouncing logic using simple while(sw==0)
+
+Displaying numerical values on LCD using ASCII conversion
+
+Modular programming using separate driver files (lcd_driver.c, delay.c, etc.)
+
+▶️ How the Code Works
+
+The LCD is initialized using custom lcd_init() and command functions.
+
+A variable c stores the current count (0–9).
+
+Inside the infinite loop:
+
+The LCD cursor is set to the first line (0x80).
+
+The two digits of the counter are calculated:
+
+Tens digit → (c/10)+48
+
+Units digit → (c%10)+48
+
+LCD is refreshed using command 0x01.
+
+When the switch (P0.14) is pressed:
+
+The counter increments.
+
+Rolls back to 0 after 9.
+
+Debouncing is done with while(sw==0);
+
+📍 Pin Connection
+Component	LPC2148 Pin
+Switch	P0.14
+LCD D0-D7, RS, RW, EN	As per your lcd_driver.c configuration
+📂 Included Files
+
+main.c – Main program
+
+lcd_driver.c – LCD command & data functions
+
+delay.c – Software delay
+
+header.h – Function declarations
+
+🎯 Outcome
+
+When the button is pressed, the LCD displays:
+
+00
+01
+02
+...
+09
+00 (rolls over)
 
