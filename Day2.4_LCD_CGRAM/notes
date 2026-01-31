@@ -1,7 +1,7 @@
-📌 Project Title: LCD Custom Character Using CGRAM (LPC2148 / LPC2129)
+📌Project Title: LCD Custom Character Using CGRAM (LPC2129)
 📝 Description
 
-This program demonstrates how to create and display custom characters on a 16×2 LCD by using the CGRAM (Character Generator RAM) of the HD44780 controller.
+This program demonstrates how to create and display custom characters on a 16×2 LCD by using the CGRAM (Character Generator RAM) .
 CGRAM allows defining up to 8 custom characters (locations 0–7), each with an 8-byte pixel pattern.
 
 🔧 Key Functions
