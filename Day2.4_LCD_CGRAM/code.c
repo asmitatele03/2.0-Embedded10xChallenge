@@ -10,3 +10,5 @@ int main()
     lcd_data(1);     // Display custom character stored at CGRAM location 1 (page 1)
 }
 
+
+
