@@ -1,6 +1,6 @@
 void lcd_cgram()
 {
-    lcd_cmd(0x40);       // Set CGRAM address 0
+    lcd_cmd(0x40);       // Set CGRAM address 0 (page 0)
 
     unsigned char a[8] = {0x00, 0x0A, 0x0A, 0x00, 0x00, 0x0E, 0x11, 0x00};  // address locations
 
