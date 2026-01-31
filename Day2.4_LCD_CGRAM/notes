@@ -1,1 +1,47 @@
+📌 Project Title: LCD Custom Character Using CGRAM (LPC2148 / LPC2129)
+📝 Description
 
+This program demonstrates how to create and display custom characters on a 16×2 LCD by using the CGRAM (Character Generator RAM) of the HD44780 controller.
+CGRAM allows defining up to 8 custom characters (locations 0–7), each with an 8-byte pixel pattern.
+
+🔧 Key Functions
+
+lcd_init()
+Initializes the LCD in 4-bit/8-bit mode and sets display configuration.
+
+lcd_cgram()
+Writes custom 5×8 dot patterns into CGRAM addresses.
+
+lcd_cmd()
+Sends commands to LCD (example: 0x82 sets cursor to a DDRAM location).
+
+lcd_data()
+Sends data bytes to LCD (0–7 will display custom characters stored in CGRAM).
+
+📍 How It Works
+
+The program initializes the LCD.
+
+Loads a custom character pattern into CGRAM location 1.
+
+Moves cursor to position (using 0x82).
+
+Displays the custom character by calling lcd_data(1).
+
+📂 Files Included
+
+main.c – main logic
+
+lcd_driver.c – driver for LCD
+
+header.h – function prototypes
+
+💡 Applications
+
+Arrows
+
+Symbols (heart, thermometer, battery icon)
+
+Animations
+
+Custom shapes for UI on embedded devices
