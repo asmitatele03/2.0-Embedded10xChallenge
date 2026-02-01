@@ -1,1 +1,46 @@
+In today’s task, I implemented an LED blinking sequence on the LPC2129 ARM7 microcontroller using GPIO register-level programming.
+This program focuses on even-bit LED blinking using a step of +2 inside the loop.
 
+🔍 What This Program Does
+
+Configures Port 0 pins as output using IODIR0
+
+Turns all LEDs OFF initially using IOSET0
+
+Blinks LEDs connected to even-numbered bits (0, 2, 4, 6)
+
+Uses IOCLR0 (active low) to turn LEDs ON
+
+Uses IOSET0 to turn LEDs OFF
+
+Simple loop-based LED pattern with a delay
+
+🧠 Key Concepts Learned
+
+GPIO direction configuration
+
+Even-bit iteration using i = i + 2
+
+Use of IOSET0 & IOCLR0 in active-low systems
+
+Understanding how bit shifting controls individual LED lines
+
+Infinite while loop execution on ARM microcontrollers
+
+🧩 Code Logic Summary
+
+Loop runs through 0 → 2 → 4 → 6
+
+LEDs blink only when i == 0 or i == 2 (based on example condition)
+
+Delay functions used for visible blinking
+
+Active-low logic is essential for LPC2129 LED circuits
+
+📌 Applications
+
+Learning bit-masking and GPIO control
+
+LED animations and patterns
+
+Foundational understanding of register-based embedded programming
