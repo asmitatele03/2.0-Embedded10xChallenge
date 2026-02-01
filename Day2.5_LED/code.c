@@ -9,6 +9,7 @@ int main()
 
     IODIR0 = LED;   // macro
     IOSET0 = LED;   // macro
+    
     delay_ms(20);
 
     while(1)
