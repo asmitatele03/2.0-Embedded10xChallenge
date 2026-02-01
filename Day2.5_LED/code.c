@@ -1,7 +1,7 @@
 #include <lpc21xx.h>
 #include "header.h"
 
-#define LED 255  
+#define LED 255    // 1 byte
 
 int main()
 {
