@@ -13,7 +13,7 @@ int main()
 
     while(1)
     {
-        for(i = 0; i < 8; i = i + 2)
+        for(i = 0; i < 8; i = i + 2)     //loop
         {
             if((i == 0) || (i == 2))    // Based on your image logic
             {
