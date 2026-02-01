@@ -1,14 +1,14 @@
 #include <lpc21xx.h>
 #include "header.h"
 
-#define LED 255
+#define LED 255  
 
 int main()
 {
     int i;
 
-    IODIR0 = LED;
-    IOSET0 = LED;
+    IODIR0 = LED;   // macro
+    IOSET0 = LED;   // macro
     delay_ms(20);
 
     while(1)
