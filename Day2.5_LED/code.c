@@ -25,7 +25,7 @@ int main()
         }
 
         if(i == 6)
-            i = i - 1;
+            i = i - 1;               // rollover
     }
 }
 
