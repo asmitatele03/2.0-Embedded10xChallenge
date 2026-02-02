@@ -1,12 +1,5 @@
 #include <lpc21xx.h>
 
-void delay_ms(unsigned int ms)
-{
-    unsigned int i, j;
-    for(i = 0; i < ms; i++)
-        for(j = 0; j < 6000; j++);
-}
-
 int main()
 {
     IO1DIR = 0xFF;     // P1.0 – P1.7 as output
