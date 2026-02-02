@@ -1,8 +1,7 @@
 #include <lpc21xx.h>
-
 int main()
 {
-    IO1DIR = 0xFF;     // P1.0 – P1.7 as output
+    IO1DIR = 0xFF;     // P1.0 – P1.7 as output 255
 
     while(1)
     {
