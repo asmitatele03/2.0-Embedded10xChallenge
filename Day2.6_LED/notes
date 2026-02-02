@@ -1,1 +1,29 @@
+🔥 What the Code Does
+
+Blink all LEDs five times
+
+Uses IO1CLR = 0xFF to turn ON all LEDs
+
+Uses IO1SET = 0xFF to turn OFF all LEDs
+
+Repeats this sequence 5 times
+
+Left-to-Right LED Shifting (5 cycles)
+
+Uses (1 << j) bit shifting to activate each LED one by one
+
+Creates a "running light" effect
+
+Repeats the pattern 5 times
+
+📌 Concepts Covered
+
+GPIO configuration using IO1DIR, IO1SET, IO1CLR
+
+Delay generation using nested loops
+
+Bitwise operations for LED control
+
+Loop-based LED blinking and shifting patterns
+
 
