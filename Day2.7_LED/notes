@@ -69,6 +69,6 @@ The full project includes:
 
 main.c → LED pattern logic
 
-LPC2148 startup file
+LPC2129 startup file
 
 Keil project structure
