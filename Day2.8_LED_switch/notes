@@ -1,1 +1,60 @@
+Project Title:
+LED Speed Control Using Switch (3-Mode Blinking) – LPC2148 ARM7
+Overview
 
+This project demonstrates how a single push-button switch can be used to control three different LED blinking speeds on the LPC2148 ARM7 microcontroller.
+Each press changes the LED mode:
+
+Press Count	Mode	Blink Speed
+1st press	Mode 1	Slow blink ⏳
+2nd press	Mode 2	Medium blink ⚡
+3rd press	Mode 3	Fast blink 🚀
+4th press	Back to Mode 1	(Mode resets)
+
+The logic uses a simple mode counter and an array holding three different delay values.
+
+Concepts Used
+4
+1️⃣ Switch Interfacing
+
+Switch connected to P0.14 (configured as input).
+
+It is active LOW, meaning it reads 0 when pressed.
+
+2️⃣ Mode Selection Using a Counter
+
+Variable mode cycles through 0 → 1 → 2 → 0.
+
+Achieved by the expression:
+
+mode = (mode + 1) % 3;
+
+3️⃣ LED Blinking at Different Speeds
+
+LED connected to P0.17.
+
+Delay values stored in the array:
+
+int speed[] = {900000, 500000, 150000};
+
+4️⃣ Software Debouncing
+
+A small delay (300000 cycles) prevents counting the same press multiple times.
+
+Why This Project Is Useful?
+
+Demonstrates User Interface (UI) using only a single switch.
+
+Shows how embedded systems manage modes and state transitions.
+
+A good stepping stone to more advanced systems like:
+
+Multi-mode appliances
+
+Timers
+
+Motor speed control
+
+LED chasers
+
+Menu toggling using a single switch
