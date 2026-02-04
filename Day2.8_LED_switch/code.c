@@ -13,7 +13,9 @@ int main() {
     int speed[] = {900000, 500000, 150000};
 
     while (1) {
-        if (!(IOPIN0 & (1<<14))) { mode = (mode + 1) % 3; delay(300000); }
+        if (!(IOPIN0 & (1<<14))) 
+        {
+        mode = (mode + 1) % 3; delay(300000); }
 
         IOSET0 = (1<<17); delay(speed[mode]);
         IOCLR0 = (1<<17); delay(speed[mode]);
