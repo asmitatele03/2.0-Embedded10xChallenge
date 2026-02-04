@@ -1,4 +1,4 @@
-#include <lpc214x.h>
+#include <lpc21xx.h>
 
 void delay(int d) { for (volatile int i = 0; i < d; i++); }
 
