@@ -1,7 +1,7 @@
-LED Speed Control Using Switch (3-Mode Blinking) – LPC2148 ARM7
+LED Speed Control Using Switch (3-Mode Blinking) – LPC2129 ARM7
 Overview
 
-This project demonstrates how a single push-button switch can be used to control three different LED blinking speeds on the LPC2148 ARM7 microcontroller.
+This project demonstrates how a single push-button switch can be used to control three different LED blinking speeds on the LPC2129 ARM7 microcontroller.
 Each press changes the LED mode:
 
 Press Count	Mode	Blink Speed
