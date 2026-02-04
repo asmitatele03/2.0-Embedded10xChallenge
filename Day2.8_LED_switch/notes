@@ -12,7 +12,6 @@ Press Count	Mode	Blink Speed
 The logic uses a simple mode counter and an array holding three different delay values.
 
 Concepts Used
-4
 1️⃣ Switch Interfacing
 
 Switch connected to P0.14 (configured as input).
