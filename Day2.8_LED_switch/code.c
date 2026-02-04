@@ -19,7 +19,8 @@ int main() {
         delay(300000); 
         }
 
-        IOSET0 = (1<<17); delay(speed[mode]);
+        IOSET0 = (1<<17); 
+        delay(speed[mode]);
         IOCLR0 = (1<<17); delay(speed[mode]);
     }
 }
