@@ -1,7 +1,9 @@
 #include <lpc21xx.h>
 
-void delay(int d) { 
-for (volatile int i = 0; i < d; i++); }
+void delay(int d) 
+{ 
+for (volatile int i = 0; i < d; i++); 
+}
 
 int main() {
     IODIR0 |= (1<<17);
