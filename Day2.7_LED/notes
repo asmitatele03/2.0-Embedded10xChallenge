@@ -1,10 +1,5 @@
 🔹 Title: Dual Wave Mirror LED Pattern – LPC2148 | Day 2.7 Embedded C Challenge
 📌 Overview
-
-
-
-
-
 This program creates a unique dual-wave LED blinking pattern on the LPC2129 ARM7 microcontroller using 8 LEDs connected to Port 0 pins P0.16 to P0.23. 
 The pattern includes center-outward blinking, outward-inward wave, alternating bit patterns, and full-blink effects.
 It is an advanced pattern demonstrating bitwise operations, GPIO control, looping logic, and timing.
