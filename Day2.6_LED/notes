@@ -1,5 +1,4 @@
 🔥 What the Code Does
-
 Blink all LEDs five times
 
 Uses IO1CLR = 0xFF to turn ON all LEDs
