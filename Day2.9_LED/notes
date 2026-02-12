@@ -41,10 +41,4 @@ How binary representation can be visualized using LEDs
 
 Basic embedded UI design concepts
 
-🚀 Future Improvements
 
-Timer-based precise delay
-
-Interrupt-based button detection
-
-Non-blocking architecture
