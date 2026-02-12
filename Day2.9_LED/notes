@@ -1,1 +1,50 @@
+Binary Counter with Short & Long Press Detection (LPC2129)
+📌 Overview
 
+This project demonstrates a 4-bit binary counter implemented using LPC2129 (ARM7). The system uses a single push-button switch to perform two different operations:
+
+Short Press → Increment counter (0–15)
+
+Long Press → Reset counter to 0
+
+The counter value is displayed on 4 LEDs in binary format.
+
+🛠 Hardware Used
+
+LPC2129 Microcontroller
+
+4 LEDs (Connected to P0.4 – P0.7)
+
+Push Button Switch (Connected to P0.14)
+
+⚙️ Key Concepts Implemented
+
+GPIO configuration
+
+Bit masking
+
+Bit shifting
+
+Switch debouncing
+
+Press duration measurement
+
+Human-machine interaction logic
+
+🎯 Learning Outcome
+
+This project helped in understanding:
+
+How embedded systems differentiate between short and long press events
+
+How binary representation can be visualized using LEDs
+
+Basic embedded UI design concepts
+
+🚀 Future Improvements
+
+Timer-based precise delay
+
+Interrupt-based button detection
+
+Non-blocking architecture
