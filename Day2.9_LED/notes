@@ -1,4 +1,5 @@
-Binary Counter with Short & Long Press Detection (LPC2129)
+--->Binary Counter with Short & Long Press Detection (LPC2129)
+
 📌 Overview
 
 This project demonstrates a 4-bit binary counter implemented using LPC2129 (ARM7). The system uses a single push-button switch to perform two different operations:
