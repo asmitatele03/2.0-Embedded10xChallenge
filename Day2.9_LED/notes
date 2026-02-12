@@ -4,7 +4,7 @@
 
 This project demonstrates a 4-bit binary counter implemented using LPC2129 (ARM7). The system 
 uses a single push-button switch to perform two different operations:
-
+       
 Short Press → Increment counter (0–15)
 
 Long Press → Reset counter to 0
