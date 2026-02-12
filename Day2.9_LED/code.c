@@ -26,8 +26,8 @@ int main()
         IO0CLR = 0xFF;
         IO0SET = led;
 
-        /* -------- 1 SECOND DELAY -------- */
-        delay_ms(10);     // ? 1 second delay
+     
+        delay_ms(10);    
 
         /* -------- SHIFT LOGIC -------- */
         if(direction == 1)
