@@ -9,7 +9,7 @@ int main()
     int direction = 1;      
     unsigned char last = 1;
 
-    IO0DIR |= 0xFF;         
+    IO0DIR |= 0xFF;             
     IO0DIR &= ~SW;          
 
     while(1)
