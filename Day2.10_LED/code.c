@@ -25,8 +25,7 @@ int main()
         /* -------- LED OUTPUT -------- */
         IO0CLR = 0xFF;
         IO0SET = led;
-
-        /* -------- 1 SECOND DELAY -------- */
+        
         delay_ms(10);    
 
         /* -------- SHIFT LOGIC -------- */
