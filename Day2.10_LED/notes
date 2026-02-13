@@ -1,1 +1,103 @@
+📌 Project Overview
+
+This project implements the classic Knight Rider LED running pattern using the LPC2129 (ARM7) microcontroller.
+
+The LEDs move in a scanning pattern (left → right and right → left), similar to the iconic Knight Rider light effect.
+
+A push-button switch is used to dynamically reverse the LED direction during execution.
+
+This project demonstrates real-time control, bit manipulation, and embedded interaction logic.
+
+🎯 Key Features
+
+8-bit LED running pattern
+
+Direction reversal using single push-button
+
+Edge detection logic for switch
+
+Bit shifting operations (<< and >>)
+
+Boundary condition handling
+
+Embedded GPIO control
+
+🛠 Hardware Requirements
+
+LPC2129 (ARM7) Microcontroller
+
+8 LEDs (Connected to P0.0 – P0.7)
+
+Push Button Switch (Connected to P0.14)
+
+Resistors (220Ω for LEDs)
+
+Power Supply (5V)
+
+⚙️ Pin Configuration
+Component	Port Pin
+LED0–LED7	P0.0 – P0.7
+Switch	P0.14
+🧠 Core Logic Explanation
+1️⃣ LED Movement
+
+LEDs shift using bitwise operations.
+
+Left shift (<<) for forward direction.
+
+Right shift (>>) for reverse direction.
+
+2️⃣ Direction Control
+
+A direction flag variable controls movement.
+
+On button press, direction value is toggled.
+
+3️⃣ Switch Handling
+
+Edge detection logic prevents multiple toggles.
+
+Basic debouncing applied.
+
+💻 Concepts Covered
+
+GPIO Configuration
+
+Bit Manipulation
+
+Embedded C Programming
+
+State-Based Logic
+
+Boundary Condition Handling
+
+Human-Machine Interaction
+
+🚀 Learning Outcome
+
+Through this project, I strengthened my understanding of:
+
+Real-time LED control
+
+Direction control logic
+
+Embedded system behavior
+
+Efficient bit-level programming
+
+Microcontroller register usage
+
+This project is part of my ongoing Embedded Systems learning journey.
+
+🔮 Future Improvements
+
+Timer-based precise delay
+
+Interrupt-driven switch handling
+
+PWM-based smooth LED fading
+
+State machine implementation
+
+Non-blocking architecture
 
