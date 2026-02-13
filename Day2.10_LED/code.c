@@ -18,7 +18,7 @@ int main()
         if(!(IO0PIN & SW) && last)
         {
             direction = -direction;  
-            delay_ms(10);            // debounce 50ms
+            delay_ms(10);            // debounce 10ms
         }
         last = (IO0PIN & SW);
 
