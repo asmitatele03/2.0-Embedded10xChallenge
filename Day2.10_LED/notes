@@ -90,15 +90,4 @@ Microcontroller register usage
 
 This project is part of my ongoing Embedded Systems learning journey.
 
-🔮 Future Improvements
-
-Timer-based precise delay
-
-Interrupt-driven switch handling
-
-PWM-based smooth LED fading
-
-State machine implementation
-
-Non-blocking architecture
 
