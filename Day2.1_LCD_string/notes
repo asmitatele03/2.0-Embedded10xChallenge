@@ -1,6 +1,6 @@
 1. Header Files
 
-#include <lpc21xx.h>                 
+#include <lpc21xx.h>  
 #include "header.h"
 
 * lpc21xx.h: Contains register definitions for the LPC2129 microcontroller.
