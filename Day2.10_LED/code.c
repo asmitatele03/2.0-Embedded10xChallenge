@@ -1,4 +1,4 @@
-#include <lpc21xx.h>
+#include <lpc21xx.h> 
 #include"header.h"
 
 #define SW (1<<14)
