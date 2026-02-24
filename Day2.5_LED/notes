@@ -3,10 +3,6 @@ This program focuses on even-bit LED blinking using a step of +2 inside the loop
 
 🔍 What This Program Does
 
-
-
-
-
 Configures Port 0 pins as output using IODIR0
 
 Turns all LEDs OFF initially using IOSET0
