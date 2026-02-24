@@ -1,9 +1,4 @@
 #include <LPC214x.h>
-
-
-
-
-
 #include "header.h"
 
 int main()
