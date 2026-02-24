@@ -1,5 +1,11 @@
 In today’s task, I implemented an LED blinking sequence on the LPC2129 ARM7 microcontroller using GPIO register-level programming.
-This program focuses on even-bit LED blinking using a step of +2 inside the loop.
+This program focuses on even-bit LED blinking using a step of +2 inside the loop. 
+
+
+
+
+
+
 
 🔍 What This Program Does
 
